@@ -1,0 +1,12 @@
+work/
+*.exe
+*.o
+*.obj
+records.txt
+settings.cfg
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+lib/lib/*.a
