@@ -1,0 +1,27 @@
+# Layout adapted from newagebegins/BattleCity under MIT.
+........BB......BB........
+........BB......BB........
+..TTTTTTBB................
+..TTTTTTBB..........SSSSSS
+BBTTTTTT..................
+BBTTTTTT..................
+TTTTTTTT......BB..BBBBBBB.
+TTTTTTTT......BB..BBBBBBB.
+TTTTTTTTBBBBBBBB..BB...B..
+TTTTTTTTBBBBBB....BB...B..
+TTTTTTTT....BB.........B..
+TTTTTTTT....BB.........B..
+..TT........SSSSSS....TT..
+..TT........SSSSSS....TT..
+..................TTTTTTTT
+..BB..BB..........TTTTTTTT
+BBB..BBBB..BBBBBBBTTTTTTTT
+BBB..BBBB..B......TTTTTTTT
+..........BB......TTTTTTTT
+..........BB..BBBBTTTTTTTT
+BB....S.......BBBBTTTTTT..
+BB....S...........TTTTTT..
+BBBB..S...........TTTTTT..
+BBBB..S....BBBB...TTTTTT..
+SSBBBB.....BEEB...BB......
+SSBBBB.....BEEB...BB......
