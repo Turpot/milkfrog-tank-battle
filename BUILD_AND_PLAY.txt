@@ -1,0 +1,20 @@
+编译前：自行获取Windows x64 MinGW-w64 raylib 6.2静态库，放到lib/lib/libraylib.a。仓库不分发预编译库。
+
+﻿奶蛙坦克大战 源码工程
+
+本目录包含 C11 源码、运行资源、四套测试、raylib 头文件和静态库。
+预先编译好的程序在完整提交包的 Game 目录。
+
+重新编译需 MinGW-w64 GCC，将 bin 加入 PATH 后执行 build.bat 或 make。
+成功后生成 Source/TankBattle90.exe；保留旁边 assets 目录。
+build_and_run.bat 会编译后启动游戏。
+
+如需隔离验证，另装 Python 3.9+，在 Source 目录执行：
+python tools/verify.py --compiler-dir "C:/工具链/bin" --output work/check01
+请替换工具链路径，并选择尚不存在的输出目录。
+验证脚本会严格编译并运行游戏、核心、链表关卡、画面和输入音频测试，结果写入 verification.json。
+自动运行带 --test-hidden，资源和EXE放在隔离目录，不写玩家战绩。
+
+关卡：每关8敌、同屏4敌，三关累计24敌。
+链表删除采用 prev / cur / temp；初始化保留C11合法的普通顺序初始化与复合字面量。
+原始参考与许可见 docs，raylib许可见 lib，后备字体许可见 assets/font。
